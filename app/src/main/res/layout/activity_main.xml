@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    tools:context="com.example.administrator.mykr36.MainActivity">
+
+
+    <!--主界面-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/color_bottom_tab" />
+
+        <!--底部菜单-->
+        <include layout="@layout/home_bottom_tab"></include>
+
+
+    </LinearLayout>
+
+    <!--侧滑菜单-->
+
+    <fragment
+        android:id="@+id/news_category_fragment"
+        android:name="com.example.administrator.mykr36.utils.ui.CategoryFragment"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+
+</android.support.v4.widget.DrawerLayout>

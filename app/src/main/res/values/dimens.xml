@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="welcome_logo_bottom_margin">15dp</dimen>
+    <dimen name="category_item_margin">15dp</dimen>
+    <dimen name="category_item_type_height">20dp</dimen>
+    <dimen name="welcom_logo_bottom_margin">25dp</dimen>
+    <dimen name="home_bottom_tab_height">60dp</dimen>
+    <dimen name="news_items_image_logo">90dp</dimen>
+    <dimen name="news_items_height">120dp</dimen>
+    <dimen name="category_item_text_size">16sp</dimen>
+    <dimen name="layout_margin_size_5">5dp</dimen>
+    <dimen name="recyclerview_margin">10dp</dimen>
+    <dimen name="gallery_height">170dp</dimen>
+    <dimen name="news_item_logo_top">10dp</dimen>
+
+
+</resources>

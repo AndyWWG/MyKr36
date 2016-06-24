@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/home_bottom_tab_height">
+
+    <RadioGroup
+        android:id="@+id/home_bottom_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_bottom_tab_height"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_tab_news"
+            style="@style/home_tab"
+            android:drawableTop="@drawable/home_radiobtn_news"
+            android:text="@string/home_tab_news_text" />
+
+        <RadioButton
+            android:id="@+id/home_tab_equity"
+            style="@style/home_tab"
+            android:drawableTop="@drawable/home_radiobtn_equity"
+            android:text="@string/home_tab_equity_text" />
+
+        <RadioButton
+            android:id="@+id/home_tab_find"
+            style="@style/home_tab"
+            android:drawableTop="@drawable/home_radiobtn_find"
+            android:text="@string/home_tab_find_text" />
+
+        <RadioButton
+            android:id="@+id/home_tab_me"
+            style="@style/home_tab"
+            android:drawableTop="@drawable/home_radiobtn_mine"
+            android:text="@string/home_tab_my_text" />
+
+    </RadioGroup>
+</LinearLayout>
